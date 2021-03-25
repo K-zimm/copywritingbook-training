@@ -17,7 +17,7 @@ const pageStyles = {
 };
 const headingStyles = {
   marginBottom: 30,
-  color: '#2B3A67',
+  color: '#000000',
   textTransform: 'uppercase',
   fontSize: 24,
   padding: '0 30px',
