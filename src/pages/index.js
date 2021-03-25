@@ -13,79 +13,60 @@ const pageStyles = {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  backgroundImage: `linear-gradient(180deg, rgba(19,34,19,1) 0%, rgba(19,34,19,0.5018382352941176) 100%), url(${BackgroundImage}) `,
-  backgroundSize: 'cover',
-  backgroundPosition: 'center center',
 };
 const headingStyles = {
-  marginTop: 30,
-  color: '#ffffff',
+  marginBottom: 30,
+  color: '#2B3A67',
   textTransform: 'uppercase',
-  fontSize: 52,
+  fontSize: 24,
   padding: '0 30px',
   textAlign: 'center',
 };
-const headingAccentStyles = {
-  color: '#663399',
-};
-const paragraphStyles = {
-  marginBottom: 48,
-};
-const codeStyles = {
-  color: '#8A6534',
-  padding: 4,
-  backgroundColor: '#FFF4DB',
-  fontSize: '1.25rem',
-  borderRadius: 4,
-};
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-};
-const listItemStyles = {
-  fontWeight: '300',
-  fontSize: '24px',
-  maxWidth: '560px',
+
+const videoStyles = {
+  width: '90%',
+  maxWidth: 700,
+  boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
+  marginBottom: 30,
 };
 
-const linkStyle = {
-  color: '#8954A8',
-  fontWeight: 'bold',
-  fontSize: '16px',
-  verticalAlign: '5%',
+const buttonStyles = {
+  color: 'rgb(255, 255, 255)',
+  fontWeight: 600,
+  backgroundColor: 'rgb(33, 185, 11)',
+  fontSize: 30,
+  textDecoration: 'none',
+  display: 'inline-block',
+  boxShadow:
+    'inset 0 2px 2px 0 rgb(255 255 255 / 22%), 0 233px 233px 0 rgb(255 255 255 / 12%) inset, 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)',
+  padding: '15px 25px',
+  borderRadius: 10,
 };
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: 'none',
-  marginBottom: 24,
-};
-
-const descriptionStyle = {
-  color: '#232129',
-  fontSize: '14px',
-};
-
-const docLink = {
-  text: 'Documentation',
-  url: 'https://www.gatsbyjs.com/docs/',
-  color: '#8954A8',
-};
-
-const logoImg = {
-  height: '50vh',
-  width: 'auto',
-};
-// data
-const links = [];
 
 // markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Wisco Firewood Supply</title>
-      <img style={logoImg} src={Logo} alt='Wisco Firewood Supply Logo' />
-      <h1 style={headingStyles}>Website Coming Soon!</h1>
+      <title>Copywriting Book Training</title>
+      <h1 style={headingStyles}>Copywritingbook.com Advanced Training</h1>
+      <video
+        controls
+        autoplay
+        controlsList='nodownload'
+        name='media'
+        style={videoStyles}
+      >
+        <source
+          src='https://embed-ssl.wistia.com/deliveries/f6c79f17ba7bf3e0a3917131ceb908ad.bin'
+          type='video/mp4'
+        />
+      </video>
+      <a
+        href='https://l.facebook.com/l.php?u=https%3A%2F%2Fsso.teachable.com%2Fsecure%2F652031%2Fcheckout%2F2054197%2Fcopywriting-mastery%3Ffbclid%3DIwAR2lJPqnoh4K-1geFzeM5nZ23JMFN3R6zM5IdhI0SqIckaVmhmQHg_D0FoA&h=AT1HXNHO3pdRNAFHrb-HgGcpfLwbFAMQryh8QE3_wnarQYuArHSoPe0d3LhZUWufZ03Y6N73R3O8Ptc0NHvmJ4TCEvnbWy4v_1SA7M7XKrKPT2VZSm0f12RzJNGo9dM92OywY1qqeqgA1bhm07Q'
+        style={buttonStyles}
+      >
+        Enroll Now
+      </a>
     </main>
   );
 };
