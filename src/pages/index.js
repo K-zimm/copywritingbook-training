@@ -13,7 +13,7 @@ const pageStyles = {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  background: #efefef;
+  background: '#efefef',
 };
 const headingStyles = {
   marginBottom: 30,
