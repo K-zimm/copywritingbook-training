@@ -66,7 +66,7 @@ const IndexPage = () => {
         />
       </video> */}
       <a
-        href='https://l.facebook.com/l.php?u=https%3A%2F%2Fsso.teachable.com%2Fsecure%2F652031%2Fcheckout%2F2054197%2Fcopywriting-mastery%3Ffbclid%3DIwAR2lJPqnoh4K-1geFzeM5nZ23JMFN3R6zM5IdhI0SqIckaVmhmQHg_D0FoA&h=AT1HXNHO3pdRNAFHrb-HgGcpfLwbFAMQryh8QE3_wnarQYuArHSoPe0d3LhZUWufZ03Y6N73R3O8Ptc0NHvmJ4TCEvnbWy4v_1SA7M7XKrKPT2VZSm0f12RzJNGo9dM92OywY1qqeqgA1bhm07Q'
+        href='https://sso.teachable.com/secure/652031/checkout/2054197/copywriting-mastery'
         style={buttonStyles}
       >
         Enroll Now
